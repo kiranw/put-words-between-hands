@@ -1,0 +1,165 @@
+body {
+		background-color:#ffe064;
+		margin:0;
+	}
+
+	div#container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div#containerSpacer {
+		height:2em;
+	}
+	
+	div#bun {
+		width:500px;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top:2em;
+		padding-bottom:3em;
+	}
+
+	div#main {
+		margin-top:1em;
+		margin-left: auto;
+		margin-right: auto;
+		text-align:justify;
+	}
+	
+	div#controls {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-top: 2em;
+	}
+	
+	div.advanced {
+		display:none;
+	}
+	
+	span.emoji {
+		font-face:helvetica,arial,sans-serif;	
+	}
+	
+	div#footer {
+		margin-top:3em;
+		width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		text-align: center;
+		font-family:'LeagueGothicRegular',Helvetica, Arial, sans-serif;
+		font-size:24pt;
+		margin-bottom:1em;
+	}
+	
+	div#footer a {
+		text-decoration:underline;
+		color: black;
+	}
+	
+	button {
+		width:500px;
+		height:80px;
+		font-family:'LeagueGothicRegular',Helvetica, Arial, sans-serif;
+		font-size:34pt;
+		line-spacing:18pt;
+		background-color:transparent;
+		margin-top:0.3em;
+		text-transform:uppercase;
+	}
+	
+	div#colorPicker,
+	div#colorPicker td {
+  		font-family:'LeagueGothicRegular',Helvetica, Arial, sans-serif;
+		line-spacing:18pt;
+		font-size:34pt;
+		text-transform:uppercase;
+	}
+
+	input#mobileKeyboardKludge {
+  		font-family:'LeagueGothicRegular',Helvetica, Arial, sans-serif;
+		font-size: 34pt;
+		height:100px;
+		border:none;
+		background-color:transparent;
+		width:500px;
+		text-align:center;
+		padding:20px;
+	}
+
+	div#colorPicker input {
+  		font-family:'LeagueGothicRegular',Helvetica, Arial, sans-serif;
+		font-size: 34pt;
+		width:200px;
+		height:50px;
+		padding:5px;
+	}
+
+    @media (min-width:801px){
+		div#main {
+			width:80%;
+			min-width:80%;
+			line-spacing:18pt;
+			font-size:14pt;
+		}
+	}
+
+    @media (min-width:500px) and (max-width:800px){
+		div#main {
+			width:80%;
+			min-width:80%;
+			line-spacing:10pt;
+			font-size:8pt;
+		}
+	}
+
+    @media (max-width:500px){
+		div#main {
+			width:90%;
+			min-width:90%;
+			line-spacing:10pt;
+			font-size:8pt;
+		}
+	}
+
+	div.flow {
+		line-height:1;text-transform:uppercase;
+		font-family:'BowlbyOneRegular', Arial, sans-serif;
+		letter-spacing: 0;
+		color: #342512;
+		text-align:center;
+		width:100%;
+		font-size:16pt;
+		position:relative;
+		top:-0.5em;
+	}
+	span.hsjs
+	{
+		position:relative;text-transform:uppercase;
+		top:0.05em;
+		font-family:'BowlbyOneRegular', Helvetica, Arial, sans-serif;
+		letter-spacing: 0;
+		font-size:100px;
+		text-align:justify;
+  	 	color: #A53D18;
+	 }
+
+  .mobileShow {display: none;} 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+
+.flip-vert {
+	-moz-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+	filter: FlipV;
+	-ms-filter: "FlipV";
+}

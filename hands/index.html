@@ -1,0 +1,102 @@
+
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123734218-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-123734218-1');
+    </script>
+
+    <title>Put Words Between Hands</title>
+
+    <meta charset="UTF-8"/>
+    <meta name="title" content="Put Words Between Hands"/>
+    <meta name="description" content="Create pictures of words between hands." />
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Put Words Between Hands"/>
+    <meta property="og:url" content="http://buns.life"/>
+    <meta property="og:site_name" content="Put Words Between Hands"/>
+    <meta property="og:description" content="Create pictures of words between hands."/>
+
+    <link rel="stylesheet" href="css/bowlby.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/leaguegothic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jscolor.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/canvas2image.js"></script>
+    <script src="js/color-scheme.min.js"></script>
+    <script src="js/bun.js"></script>
+
+    </head>
+    <body>
+    <a name="top"/><div id="container">
+        <div id="containerTop">
+        <div id="bun">
+        <div id="main">
+        <div id="bun-top" class="flow flip-vert"><img src="images/hand-bottom.png" style="width:100%"></div>
+        <div style='position:relative;top:-0.2em;'>
+        <span class="hatchshow_temp" style="display:block;line-height:0.8"><span class="hsjs" style="white-space: pre; font-size: 141px; visibility: visible;">Just</span></span>
+    <span class="hatchshow_temp" style="display:block;line-height:0.8"><span class="hsjs" style="white-space: pre; font-size: 114px; visibility: visible;">start</span></span>
+    <span class="hatchshow_temp" style="display:block;line-height:0.8"><span class="hsjs" style="white-space: pre; font-size: 95px; visibility: visible;">typing</span></span>
+    <span class="hatchshow_temp" style="display:block;line-height:0.9"><span class="hsjs" style="white-space: pre; font-size: 24px; visibility: visible;">(enter &amp; backspace work)</span></span>
+    </div>
+    <div id="bun-bottom"><img src="images/hand-bottom.png" style="width:100%"></div>
+        </div>
+        </div>
+        </div>
+        <div id="containerBottom">
+        <div id="controls">
+        <div class="mobileShow">
+        <input id="mobileKeyboardKludge" type="text" value="TAP HERE TO TYPE" onfocus="keyboardFocus();">
+        </div>
+
+        <div id="colorPicker" style="text-align:center;margin:0 auto;">
+        <div>
+        <button id="bgColorPicker" class="jscolor {valueElement:'chosen-value', value:bgColor, width:485,height:300, position:'top', onFineChange:'updateBGColor(this.toHEXString())'}">Choose background color</button>
+    </div>
+    <div class="advanced">
+        <button id="bgColorPicker2" class="jscolor {valueElement:'chosen-value', value:bgColor, width:485,height:300, position:'top', onFineChange:'updateBGColor2(this.toHEXString())'}">Add background gradient</button>
+    </div>
+    <div>
+    <button id="textColorPicker" class="jscolor {valueElement:'chosen-value', value:copyColor, width:485,height:300, position:'top', onFineChange:'updateTextColor(this.toHEXString())'}">Choose text color</button>
+    </div>
+    <div class="advanced">
+        <button id="textColorPicker2" class="jscolor {valueElement:'chosen-value', value:copyColor, width:485,height:300, position:'top', onFineChange:'updateTextColor2(this.toHEXString())'}">Change text color</button>
+    </div>
+    <div id="randomizer">
+        <button style="background:rgba(255,255,255,0.5);" onclick="randomizeColors();">Randomize Colors</button>
+    </div>
+    <div id="downloader">
+        <button style="background:rgba(255,255,255,0.5);" onclick="if(window.chrome){win = window.open();}renderImage();">Get Image</button>
+    </div>
+    <div style="margin-top:0.5em">
+        <button id="modeButton" style="background:rgba(255,255,255,0.5);" onclick="changeMode();"><span class="emoji">&#x1F525</span> Extra Toppings</button>
+    </div>
+    </div>
+
+    <div id="footer">
+        <a href="http://twitter.com/ibogost">Ian Bogost</a> made this, and kiran edited it, for <a href="http://bogost.com/projects/buns-life/">some reason</a>. Put words between hands.
+    </div>
+    </div>
+
+        <script>
+    var a2a_config = a2a_config || {};
+    a2a_config.onclick = 1;
+    a2a_config.num_services = 4;
+    </script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+    </div>
+    </div>
+
+    <div style="text-align:right;margin-left:10px;margin-right:10px;font-size:8pt;font-family:sans-serif;">1.1</div>
+    </div>
+    </div>
+    </body>
+</html>
