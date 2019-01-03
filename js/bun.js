@@ -46,8 +46,8 @@
 	});		
 	
 	function renderBun(s) {
-		var bunTopHTML = '<div id="bun-top" class="flow"><img src="images/bun-top.png" style="width:100%"></div>';
-		var bunBottomHTML = '<div id="bun-bottom"><img src="images/bun-bottom.png" style="width:100%"></div>';
+		var bunTopHTML = '<div id="hand-top" class="flow flip-vert"><img src="images/hand-bottom.png" style="width:100%"></div>';
+		var bunBottomHTML = '<div id="bun-bottom"><img src="images/hand-bottom.png" style="width:100%"></div>';
 	    var lines = s.split("\r\n")
 	    var copyHTML = ""
 	    copyHTML += bunTopHTML;

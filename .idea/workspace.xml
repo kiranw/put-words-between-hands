@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497f485e-3ab0-47a4-bf72-f231d24fed59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bun.js" afterPath="$PROJECT_DIR$/js/bun.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
               <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bun.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/bun.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <marker date="1546479297760" expanded="true" signature="1597:1607" ph="..." />
+                <marker date="1546479297760" expanded="true" signature="1703:1713" ph="..." />
+                <marker date="1546479297760" expanded="true" signature="1839:1868" ph="..." />
+                <marker date="1546479297760" expanded="true" signature="1988:1994" ph="..." />
+                <marker date="1546479297760" expanded="true" signature="2568:2644" ph="..." />
+                <marker date="1546479297760" expanded="true" signature="8358:8384" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +52,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/bun.js" />
       </list>
     </option>
   </component>
@@ -73,6 +91,11 @@
               <item name="put-words-between-hands" type="b2602c69:ProjectViewProjectNode" />
               <item name="put-words-between-hands" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="put-words-between-hands" type="b2602c69:ProjectViewProjectNode" />
+              <item name="put-words-between-hands" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,12 +129,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546479071107</updated>
-      <workItem from="1546479072284" duration="12000" />
+      <workItem from="1546479072284" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12000" />
+    <option name="totallyTimeSpent" value="144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
@@ -151,6 +174,21 @@
         <state relative-caret-position="468">
           <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <marker date="1546479297760" expanded="true" signature="1597:1607" ph="..." />
+            <marker date="1546479297760" expanded="true" signature="1703:1713" ph="..." />
+            <marker date="1546479297760" expanded="true" signature="1839:1868" ph="..." />
+            <marker date="1546479297760" expanded="true" signature="1988:1994" ph="..." />
+            <marker date="1546479297760" expanded="true" signature="2568:2644" ph="..." />
+            <marker date="1546479297760" expanded="true" signature="8358:8384" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
